@@ -1,3 +1,4 @@
+import { MdDeviceHub } from "react-icons/md";
 export const NavBarData = [
     {
         "title":"Products",
@@ -18,6 +19,14 @@ export const NavBarData = [
     {
         "title":"Products",
         "link":"/products"
+
     },
+    {
+        "title":"HUB",
+        "link":"/hub",
+        icon:<MdDeviceHub size={14}/>
+        
+    },
+
 
 ]

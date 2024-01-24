@@ -1,0 +1,84 @@
+/* Add these styles to your CSS file or in your component's styles */
+
+#footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .gnb-main {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+  
+  }
+  
+  .gnb {
+
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .tit {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px 0;
+  }
+  
+  .tit_s {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 12px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px; 
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  a:hover {
+    color: #3498db; 
+  }
+  
+  .m_foot {
+    margin-top: 20px; 
+    display: flex;
+    gap: 12px;
+  }
+  
+  .copy_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .copy img {
+    height: 30px; 
+    margin-right: 10px; 
+  }
+  
+  .sns ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .sns li {
+    margin-right: 10px; 
+  }
+  
+  .sns img {
+    width: 30px; 
+  }
+  
