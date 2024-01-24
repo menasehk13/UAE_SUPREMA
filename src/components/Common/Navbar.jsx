@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from "react";
 import { NavBarData } from "../../utils/data";
 import { Link } from "react-router-dom";
+import './styles/Nav.scss';
 
-import './styles/Nav.scss'
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
 
       <h1 className="font-light text-[16px] cursor-pointer">WHERE TO BUY</h1>
 
-      <button className={` bg-white px-4 py-2 cursor-pointer uppercase rounded-xl  ${scrolled?'bg-black text-white':'bg-white text-black'}`}> contact us</button>
+      <button className={`  px-4 py-2 cursor-pointer uppercase rounded-xl  ${scrolled?'bg-black text-white':'bg-white text-black'}`}> contact us</button>
     </nav>
   );
 };
