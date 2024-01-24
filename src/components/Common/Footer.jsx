@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/Footer.scss'
+import img from '../../assets/images/foot_logo.png'
 const Footer = () => {
   return (
     <footer id="footer">
@@ -235,8 +236,8 @@ const Footer = () => {
         </div>
         <hr className="w-full h-[4px] bg-white"/>
         <div className="copy_area max-w-[1080] mx-auto px-[30px]">
-          <div className="copy">
-            <img src="/en/asset/images/common/foot_logo.png" alt="" />{" "}
+          <div className="copy flex mt-5 gap-3 items-center">
+            <img  className="h-[2px] " src={img} alt="" />{" "}
             <span>Copyright © Suprema Inc. All rights reserved.</span>
           </div>
           <div className="sns">
