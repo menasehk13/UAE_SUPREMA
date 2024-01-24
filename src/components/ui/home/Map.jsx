@@ -28,11 +28,21 @@ const Map = () => {
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         center={center}
-        zoom={15}>
+        zoom={15}
+      >
         <Marker
           position={center}
           icon={"http://maps.google.com/mapfiles/ms/icons/green-dot.png"}
         />
+
+        {infoWindow && (
+          <InfoWindow position={center} onCloseClick={handleInfoWindowClose}>
+            <div>
+              <h3>{infoWindow.name}</h3>
+              <p>{infoWindow.address}</p>
+            </div>
+          </InfoWindow>
+        )}
       </GoogleMap>
     </LoadScript>
   );

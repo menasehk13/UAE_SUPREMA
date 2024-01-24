@@ -3,7 +3,6 @@ import { NavBarData } from "../../utils/data";
 import { Link } from "react-router-dom";
 import './styles/Nav.scss';
 
-
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
 
